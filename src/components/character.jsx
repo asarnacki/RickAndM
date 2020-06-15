@@ -34,7 +34,7 @@ class Character extends Component {
     }
 }
 
-Character.PropTypes = {
+Character.propTypes = {
     id: PropTypes.number,
     name: PropTypes.string,
     species: PropTypes.string,

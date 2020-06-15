@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
-import Button from '@material-ui/core/Button'
+import { Input } from '@material-ui/core';
 
 export class Welcome extends Component {
 
     render() {
         return (
-        <div>
-            <Button variant='contained' color='primary'>
-                Whaddup
-            </Button>
-        </div>
+        <form>
+            <Input placeholder='Search' inputProps={{'aria-label': 'description'}}></Input>
+        </form>
     )
     }
-
 }
 
 export default Welcome;
